@@ -184,9 +184,9 @@ article{
 .quadrado-servico{
     background-color: #fff;
     width: 500px;
-    height: 130px;
+    max-height: 130px;
     margin: 10px;
-    padding: 10px;
+    padding: 4px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -195,7 +195,7 @@ article{
 }
 
 #nosso-servico p{
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 #nosso-servico > div > div:hover{
