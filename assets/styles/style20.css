@@ -1,0 +1,20 @@
+#main{
+    background-image: url('../imagens/target001.png');
+    background-size: 100% 100%;
+    background-color: blueviolet;
+    height: 100%;
+}
+
+#quadrado{
+    background-image: url('../imagens/target001.png');
+    background-size: 100% 100%;
+    position: absolute;
+    background-color: yellow;
+    height: 200px;
+    width: 400px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
