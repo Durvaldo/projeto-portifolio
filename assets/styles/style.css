@@ -33,6 +33,10 @@ header{
     flex-shrink: 0;
 }
 
+header img{
+    max-width: 100%;
+}
+
 main{
     padding: 10px;
     width: 100%;

@@ -1,6 +1,5 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5em;
 }
 
 :root{
@@ -41,13 +40,14 @@ main{
     width: 400px;
 }
 
-.cabecalho ul{
+.cabecalho ul {
     display: flex;
     flex-direction: row;
     list-style: none;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
 .cabecalho li{
     padding: 2px 5px;
     margin: 28px 10px;
@@ -81,13 +81,16 @@ article{
     justify-content: space-around;
     flex-wrap: wrap;
     width: 95%;
-    min-width: 450px;
 }
+
 #sobre-nos h1{
     text-align: left;
 }
 
-
+#sobre-nos p{
+    padding: 10px;
+    line-height: 1.5em;
+}
 
 #sobre-nos img{
     max-width: 100%;
@@ -249,7 +252,7 @@ article{
 #rodape img{
     width: auto;
     width: 400px;
-    
+    max-width: 100%;
 }
 
 .imagem-rodape{
@@ -281,6 +284,7 @@ article{
 
 .quadrado-rodape p{
     text-align: center;
+    line-height: 1em;
 }
 
 #final{

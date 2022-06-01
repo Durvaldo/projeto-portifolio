@@ -13,6 +13,10 @@ body{
     flex-direction: column;   
 }
 
+body img{
+    max-width: 100%;
+}
+
 header{
     margin: 0;
     padding: 10px;
