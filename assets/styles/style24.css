@@ -1,0 +1,111 @@
+table.ex1{
+    display: inline-block;
+    margin: 10px;
+}
+
+td.ex1{
+    text-align: center;
+    border: 1px solid black;
+    width: 70px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+table.ex2{
+    border-collapse: collapse;
+    width: 600px;
+    height: 300px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.ex2 caption{
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+
+th.ex2, td.ex2{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+th.ex2{
+    background-color: gray;
+}
+
+table.ex3{
+    border-collapse: collapse;
+    width: 600px;
+    height: 300px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.ex3 caption{
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+table.ex3 th ,td{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+table.ex3 th{
+    background-color: gray;
+    color: white;
+    font-size: 1.3em;
+}
+
+th.media{
+    text-align: left;
+}
+
+table.ex3 td{
+    font-size: 1.3em;
+}
+
+table.ex3 td.nota{
+    text-align: center;
+}
+
+table.ex4{
+    border-collapse: collapse;
+    width: 600px;
+    height: 300px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.ex4 caption{
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+table.ex4 th ,td{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.cnome{
+    background-color: rgb(145, 85, 202);
+}
+
+.csexo{
+    background-color: blue;
+}
+
+.cidade{
+    background-color: white ;
+}
+
+.cprofissao{
+    background-color: red;
+
+}
+
+div.container{
+    overflow-x: auto;
+}

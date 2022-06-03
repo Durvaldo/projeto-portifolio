@@ -51,3 +51,8 @@ p{
     max-width: 400px;
     margin: 10px auto;
 }
+
+.resetar{
+    border: none;
+    background-color: rgb(255, 255, 255) !important;
+}
