@@ -95,6 +95,8 @@ main{
     align-items : center;
     justify-content : center;
     font-family: 'Paytone One', sans-serif;
+    font-variant: small-caps;
+    font-size: 1.2em;
 }
 
 footer{
