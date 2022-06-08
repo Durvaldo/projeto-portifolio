@@ -106,3 +106,13 @@ footer{
     background-color: #333d66;
     flex-shrink: 0;
 }
+
+.cor-botao{
+    background-color: #5c6fb8!important;
+    border-color: #5c6fb8!important;
+    color: #dbdffc!important;
+}
+
+.cor-card{
+    border-radius: 10px!important;
+}
