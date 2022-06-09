@@ -108,11 +108,15 @@ footer{
 }
 
 .cor-botao{
-    background-color: #5c6fb8!important;
-    border-color: #5c6fb8!important;
-    color: #dbdffc!important;
+    /* background-color: #5c6fb8!important;
+    border-color: #5c6fb8!important; */
+    color: #5c6fb8!important;
 }
 
 .cor-card{
     border-radius: 10px!important;
+}
+
+h5{
+    font-variant: small-caps;
 }
