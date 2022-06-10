@@ -26,7 +26,7 @@ body{
 
 header{
     padding: 10px;
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     justify-content: center;
     background-color: #333d66;
@@ -57,48 +57,6 @@ main{
     justify-content: center;
 }
 
-.button{
-    margin: 10px;
-    color: #333d66;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.icon{
-    background-color: #fff;
-    width: 100px;
-    height: 50px;
-    border-top-left-radius: 90px;
-    border-top-right-radius: 90px;
-    box-shadow: 5px 5px 10px #525666;
-    display : flex;
-    align-items : center;
-    justify-content : center;
-    border-top-style: solid;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-width: 10px;
-    border-color: #5c6fb8;
-}
-
-
-.text-button{
-    border-radius: 12px;
-    height: 4em;
-    width: 210px;
-    color: #26272e;
-    background-color: #5c6fb8;
-    box-shadow: 5px 5px 5px #525666;
-    display : flex;
-    align-items : center;
-    justify-content : center;
-    font-family: 'Paytone One', sans-serif;
-    font-variant: small-caps;
-    font-size: 1.2em;
-}
-
 footer{
     width: 100%;
     bottom: 0px;
@@ -107,16 +65,24 @@ footer{
     flex-shrink: 0;
 }
 
-.cor-botao{
-    /* background-color: #5c6fb8!important;
-    border-color: #5c6fb8!important; */
-    color: #5c6fb8!important;
-}
 
-.cor-card{
-    border-radius: 10px!important;
-}
-
-h5{
+.small-caps{
     font-variant: small-caps;
+    font-size: 1.5em!important;
+}
+
+.tamanho-card{
+    width: 18rem; 
+    height: 13rem;
+
+}
+
+.bg-softdark{
+    background-color: #333d66ec;
+}
+
+.text-card{
+    font-size: 1.1em;
+    text-shadow: 0px 0px 2px #fff;
+
 }

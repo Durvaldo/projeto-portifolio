@@ -14,3 +14,9 @@ h1{
     height: 100px;
     margin: 10px;
 }
+
+.tamanho-card{
+    width: 18rem; 
+    height: 13rem;
+
+}
